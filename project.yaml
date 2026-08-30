@@ -1,0 +1,71 @@
+# .project metadata for CRI-O
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set identity_type under legal (has_dco, has_cla)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "cri-o"
+name: "CRI-O"
+description: "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface"
+type: "project"
+project_lead: "mrunalp" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#CAZH62UR1"
+    link: "https://kubernetes.slack.com/messages/CAZH62UR1"
+    primary: true
+
+maturity_log:
+  - phase: "graduated"
+    date: "2019-04-08T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/917" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/cri-o/cri-o"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://cri-o.io/"
+
+artwork: "https://landscape.cncf.io/logos/cri-o.svg"
+
+adopters:
+  path: "https://github.com/cri-o/cri-o/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "cri-o/cri-o"
+
+
+security:
+  policy:
+    path: "https://github.com/cri-o/cri-o/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/cri-o/cri-o/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/cri-o/cri-o/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/cri-o/cri-o/blob/main/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/cri-o/cri-o/blob/main/LICENSE"
+  identity_type:
+    has_dco: true
+    has_cla: false
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/cri-o/cri-o/blob/main/README.md"
+
+landscape:
+  category: "Runtime"
+  subcategory: "Container Runtime"
+
+# CLOMonitor Score: 93/100
+# Documentation: 100 | License: 100 | Best Practices: 95 | Security: 73
